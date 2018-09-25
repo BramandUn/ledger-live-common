@@ -1034,6 +1034,34 @@ const cryptocurrenciesById = {
     ],
     family: "ripple"
   },
+  stakenet: {
+    id: "stakenet",
+    coinType: 384,
+    name: "Stakenet",
+    managerAppName: "Stakenet",
+    ticker: "XSN",
+    scheme: "xsn",
+    color: "#141828",
+    supportsSegwit: true,
+    family: "bitcoin",
+    blockAvgTime: 60,
+    bitcoinLikeInfo: {
+      P2PKH: 76,
+      P2SH: 16
+    },
+    units: [
+      {
+        name: "xsn",
+        code: "XSN",
+        magnitude: 8
+      },
+      {
+        name: "satoshi",
+        code: "sat",
+        magnitude: 0
+      }
+    ]
+  },
   stratis: {
     id: "stratis",
     coinType: 105,
